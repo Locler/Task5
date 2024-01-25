@@ -10,7 +10,7 @@ CREATE TABLE Person
     timeToLunch    time,
     letter         text
 );
-insert into person(age, salary, passport, adress, dateOfBirthday, dateTimeCreate, timeToLunch, letter)
+INSERT INTO person(age, salary, passport, adress, dateOfBirthday, dateTimeCreate, timeToLunch, letter)
 VALUES (20, 213.433, 'MC323232', 'Belarus', '2003-09-22', '2022-02-04 14:00', '12:00:00', 'ghj'),
        (43, 43, 'MP4444', 'Russian', '2001-04-25', '2024-01-23 15:01', '19:10:10', 'ffffgf'),
        (32, 23, 'MP5555', 'Belarus', '1992-05-01', '2020-02-25 15:10', '16:03:23', 'ghhasdh'),
