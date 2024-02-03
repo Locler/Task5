@@ -6,7 +6,7 @@ CREATE TABLE Person
     passport       char(10),
     adress         varchar(200),
     dateOfBirthday date,
-    dateTimeCreate datetime,
+    dateTimeCreate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     timeToLunch    time,
     letter         text
 );
